@@ -1,0 +1,13 @@
+/* countris */
+section {
+  display: flex;
+  gap: 10rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 720px) {
+  section {
+    gap: 3rem;
+  }
+}
